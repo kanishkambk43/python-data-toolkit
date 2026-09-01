@@ -1,7 +1,7 @@
 # 09_broadcasting.py
-Broadcasting in NumPy basically means:
+#Broadcasting in NumPy basically means:
 
-NumPy automatically treats a smaller array/value as if it were repeated to match a bigger array, so the operation can happen element-by-element.
+#NumPy automatically treats a smaller array/value as if it were repeated to match a bigger array, so the operation can happen element-by-element.
 import numpy as np
 
 
