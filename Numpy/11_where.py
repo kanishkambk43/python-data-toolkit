@@ -60,3 +60,4 @@ print("Between 20 and 50:", result)
 result = arr[(arr < 20) | (arr > 40)]
 
 print("Less than 20 OR greater than 40:", result)
+# Output: Less than 20 OR greater than 40: [10 50]
