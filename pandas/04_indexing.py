@@ -168,7 +168,7 @@ print(df_indexed.loc["Alice", "Marks"])
 # ============================================================
 
 df_reset = df_indexed.reset_index()
-# Convert the index back into a normal column
+# Convert the index back into a normal column.
 
 print("\nAfter resetting index:")
 print(df_reset)
