@@ -73,7 +73,7 @@ print(df.iloc[::-1])
 
 # 12. Select every second row
 # The third value in slicing is the step.
-#
+
 # [start:stop:step]
 
 print("\nEvery second row:")
