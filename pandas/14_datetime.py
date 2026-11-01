@@ -93,3 +93,10 @@ print("\nJoining dates after 30 days:")
 print(df[["Name", "Joining_Date", "After_30_Days"]])
 
 
+# -------------------- 9. Generating a Date Range --------------------
+
+# Generate 5 consecutive daily dates starting from January 1, 2024.
+dates = pd.date_range(start="2024-01-01", periods=5, freq="D")
+
+print("\nGenerated date range:")
+print(dates)
