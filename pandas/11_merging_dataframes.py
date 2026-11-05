@@ -100,7 +100,7 @@ print(pd.concat([class_a, class_b], ignore_index=True))
 
 # 10. Concatenate DataFrames horizontally
 # axis=1 places columns side by side.
-# Rows are aligned by their index labels.
+
 
 print("\nHorizontal Concatenation:")
 print(pd.concat([class_a, class_b], axis=1))
